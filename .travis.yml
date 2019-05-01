@@ -1,2 +1,7 @@
 language: dart
+dart:
+  - stable
+script:
+  - pub get --packages-dir
+  - pub run test
 os: windows
