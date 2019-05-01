@@ -1,6 +1,1 @@
 language: dart
-dart:
-# Install the latest stable release
-- stable
-script:
-  - flutter packages get
