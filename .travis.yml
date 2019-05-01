@@ -1,6 +1,6 @@
 language: dart
 dart:
-  - stable
+  - master
 script:
   - pub get --packages-dir
   - pub run test
